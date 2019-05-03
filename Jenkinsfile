@@ -7,7 +7,7 @@ pipleline {
        
        echo " running build auto"
        sh './gradlew build --no-daemon' 
-       ArchiveArtifacts 'dist/trainSchedule.zip' 
+       archiveArtifacts 'dist/trainSchedule.zip' 
        }
     
     
